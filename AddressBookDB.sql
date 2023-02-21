@@ -44,5 +44,3 @@ select city, count(*) from Address_Book group by city;
 select state, count(*) from Address_Book group by state;
 
 select * from Address_Book where city ="anatapur" order by firstname ;
-
-alter table Address_Book add type
