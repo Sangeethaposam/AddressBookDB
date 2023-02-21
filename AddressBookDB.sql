@@ -33,6 +33,10 @@ select * from Address_Book;
 
 select * from Address_Book where firstname ="geetha";
 
+alter table  Address_Book add type varchar(20) after firstname;
+
+select * from Address_Book;
+
 SET SQL_SAFE_UPDATES=0;
 
 delete from Address_Book where firstname = "Geetha";
