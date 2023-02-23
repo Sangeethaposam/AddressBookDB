@@ -34,6 +34,7 @@ values("sree", "ma", "srinagar", "anatapur", "AP", 918564, 986745676, "sree@gmai
 select * from Address_Book;
 -- UC4--
 select * from Address_Book where firstname ="geetha";
+update Address_Book set phonenumber = 765456767 where firstname = "Geetha";
 select * from Address_Book;
 
 SET SQL_SAFE_UPDATES=0;
